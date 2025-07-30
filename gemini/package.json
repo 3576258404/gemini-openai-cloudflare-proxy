@@ -1,0 +1,28 @@
+{
+  "name": "gemini-openai-proxy-pool",
+  "version": "1.0.0",
+  "description": "一个完全由 Gemini 2.5 Pro 辅助编写的代理项目。它包含一个 Cloudflare Worker 用于将 Gemini API 转换为 OpenAI 格式，以及一个 Node.js 轮询池用于管理 API 密钥和上游服务。",
+  "main": "key.js",
+  "scripts": {
+    "start": "node key.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini",
+    "openai",
+    "proxy",
+    "api",
+    "pool",
+    "ratelimit",
+    "cloudflare",
+    "worker",
+    "代理",
+    "轮询"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  }
+}

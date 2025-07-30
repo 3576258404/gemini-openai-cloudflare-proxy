@@ -1,0 +1,5 @@
+//请填入您的 Cloudflare 转换服务地址。可使用 cloudflare/works.js 脚本自行部署。
+//每个地址独占一行,地址必须包含 /v1 后缀。
+//例如:
+https://example.com/v1
+https://example.com/v1
