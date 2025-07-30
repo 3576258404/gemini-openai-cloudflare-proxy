@@ -1,16 +1,15 @@
 # OpenGemini - Gemini API 代理与轮询池
-1.  一个部署在 **Cloudflare Worker** 上的转换服务，用于将 Google Gemini API 无缝转换为标准的 OpenAI API 格式。
-2.  一个在您自己服务器上运行的 **Node.js 轮询池**，用于智能管理和轮换多个 Gemini API 密钥及上游转换服务。
-3. ~~此项目完全使用Gemini-2.5-Pro完成~~
+1.~~自用有bug懒得改~~
+2. ~~此项目完全使用Gemini-2.5-Pro完成~~
 ## 📖 项目由来
 
 一切的起因是，我恰好有一些 Gemini API Key，却缺少一台合适的境外服务器来搭建传统的反向代理和轮询池。
 
-我~~白嫖（bushi~~使用Cloudflare Workers，来反代和格式转换。
+所以我~~白嫖（bushi~~使用Cloudflare Workers，来反代和格式转换。
 
 随后，为了管理手头的众多 Key 和上游地址，我又在国内的云服务器上，用 Node.js 搭建了一个轮询池程序。
 
-最终，这两部分组合起来，就构成了这个~~简陋但能用~~功能强大的代理解决方案。
+最终，这两部分组合起来，就构成了这个~~简陋但能用~~的代理解决方案。
 
 您需要完成以下两个部分的部署。
 
@@ -34,6 +33,7 @@
     ```bash
     # 克隆本项目
     git clone https://github.com/3576258404/gemini-openai-cloudflare-proxy.git
+    cd gemini-openai-cloudflare-proxy
     cd gemini
 
     # 使用 pnpm 安装依赖
