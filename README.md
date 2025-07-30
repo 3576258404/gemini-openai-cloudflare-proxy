@@ -33,7 +33,7 @@
 2.  **克隆与安装**:
     ```bash
     # 克隆本项目
-    [git clone ](https://github.com/3576258404/gemini-openai-cloudflare-proxy.git)
+    git clone https://github.com/3576258404/gemini-openai-cloudflare-proxy.git
     cd gemini
 
     # 使用 pnpm 安装依赖
