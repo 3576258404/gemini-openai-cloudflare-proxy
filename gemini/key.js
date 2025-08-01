@@ -173,7 +173,7 @@ server.listen(PORT, HOST, () => {
         initializeAccessKey();
 
         console.log('\n======================================================');
-        console.log('      🚀 Gemini 代理服务已启动 (智能重试版) 🚀');
+        console.log('      🚀 Gemini 代理服务已启动 🚀');
         console.log('======================================================\n');
         console.log(`🔗 API 接口地址: http://127.0.0.1:${PORT}/v1`);
         console.log(`🔑 您固定的访问密钥:`);
